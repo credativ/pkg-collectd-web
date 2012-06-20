@@ -1,0 +1,12 @@
+Source: collectd-web
+Section: web
+Priority: extra
+Maintainer: Alexander Wirt <formorer@debian.org>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.2
+
+Package: collectd-web
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}, collectd, libjson-perl, liburi-perl, librrds-perl
+Description: webfrontend for collectd
+ simple webfrontend for collectd based on collection3 and a bunch of js

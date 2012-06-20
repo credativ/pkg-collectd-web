@@ -1,0 +1,12 @@
+collectd-web (0.3-3) unstable; urgency=low
+
+  * Improve dependencys
+  * Add alias to apache config
+
+ -- Alexander Wirt <formorer@debian.org>  Wed, 20 Jun 2012 16:37:01 +0200
+
+collectd-web (0.3-2) unstable; urgency=low
+
+  * Initial release
+
+ -- Alexander Wirt <formorer@debian.org>  Wed, 20 Jun 2012 16:00:03 +0200
