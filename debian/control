@@ -7,6 +7,6 @@ Standards-Version: 3.9.2
 
 Package: collectd-web
 Architecture: all
-Depends: ${shlibs:Depends}, ${misc:Depends}, collectd, libjson-perl, liburi-perl, librrds-perl
+Depends: ${shlibs:Depends}, ${misc:Depends}, collectd, libhtml-parser-perl, libjson-perl, liburi-perl, librrds-perl
 Description: webfrontend for collectd
  simple webfrontend for collectd based on collection3 and a bunch of js
